@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 sudo su
 apt update -y
 apt list --upgradable
