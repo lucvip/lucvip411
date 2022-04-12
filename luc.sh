@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-sudo su
+
 apt update -y
 apt list --upgradable
 bash <(curl -Ls https://raw.githubusercontent.com/sprov065/x-ui/master/install.sh)
